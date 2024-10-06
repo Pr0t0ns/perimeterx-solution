@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/0c6ecf3d-20ee-479b-962e-a913df398211)
 
 
-Telegram: @Pr0t0ngoated (https://t.me/pr0t0ngoated)
+Telegram: @cornflakes (https://t.me/cornflakes)
 
 Telegram Channel: https://t.me/+Tvbz-xGh_5pjYzVh
 
