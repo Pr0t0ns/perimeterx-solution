@@ -4,6 +4,7 @@ import urllib.parse
 import re
 import math
 from pc_functions import L, U, G
+from typing import Union
 custom_padding = list('G^S}DNK8DNa>D`K}GK77')
 
 
@@ -68,7 +69,7 @@ def hash_to_full_pc(hash: str) -> int:
             e += str(o % 10)  
     return n + e
 
-def generate_pc(key: str, fingerprint: str, pc_generation: bool=True) -> int|str: # Original Function W(t, n)
+def generate_pc(key: str, fingerprint: str, pc_generation: bool = True) -> Union[int, str]: # Original Function W(t, n)
     e = None
     r = L(key)
     o = []
