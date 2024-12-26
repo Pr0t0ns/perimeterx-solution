@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/0c6ecf3d-20ee-479b-962e-a913df398211)
 
 
-Telegram: @pr0t0ngo (https://t.me/pr0t0ngo)
+Telegram: @Pr0t0npro (https://t.me/Pr0t0npro)
 
 Telegram Channel: https://t.me/+Tvbz-xGh_5pjYzVh
 
