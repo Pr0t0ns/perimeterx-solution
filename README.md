@@ -7,7 +7,7 @@ Telegram: @pr0t0nwave (https://t.me/Pr0t0nwave)
 
 Telegram Channel: https://t.me/+Tvbz-xGh_5pjYzVh
 
-NOTE: This script only works for sites that have version (tag) 8.9.6 implemented it won't work on any other version. If you're interested in purchasing a more recent/older version of PX you can contact me on telegram or discord (telegram perferably). Contact info is provided above.
+NOTE: For inquiries regarding the purchase of newer or older versions of PX, please reach out via Telegram. Contact details are provided above.
 
 🗞️ DESCRIPTION 🗞️
 
