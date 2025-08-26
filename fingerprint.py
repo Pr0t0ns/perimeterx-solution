@@ -53,8 +53,8 @@ def fingerprint_2(payload_1: dict, response_1: str, site_keys: dict) -> str:
             "PX11431": int(payload_1['PX11431']),
             "PX11804": f"{generate_pc('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', payload_1['PX11496'], False)}",
             "PX12118": payload_1['PX12118'],
-            "PX11746": f"{generate_pc("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36", site_keys['vid'], False)}", # good
-            "PX11371": f"{generate_pc("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36", site_keys['sid'], False)}", # good
+            "PX11746": f"{generate_pc('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', site_keys['vid'], False)}", # good
+            "PX11371": f"{generate_pc('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', site_keys['sid'], False)}", # good
             "PX11529": heap_sizes['usedJSHeapSize'], 
             "PX11555": payload_1['PX11555'], 
             "PX11833": heap_sizes['totalJSHeapSize'], 
