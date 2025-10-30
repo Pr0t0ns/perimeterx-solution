@@ -102,7 +102,7 @@ class PX:
             "ft": self.ft,
             "seq": self.rsc,
             "en": "NTA",
-            "cs": f"{self.resp_1.split("1ooo11|")[1].split("~")[0]}",
+            "cs": f"{self.resp_1.split('1ooo11|')[1].split('~')[0]}",
             "pc": generate_pc(self.pc_key, self.fp_2),
             "sid": self.site_uuids['sid'],
             "vid": self.site_uuids['vid'],
