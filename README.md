@@ -2,20 +2,24 @@
 
 ![image](https://github.com/user-attachments/assets/0c6ecf3d-20ee-479b-962e-a913df398211)
 
-# Pay-per use PerimeterX service is coming soon to https://silentsolve.xyz #
+NOTE: For inquiries regarding the purchase of newer versions of PX please feel free to reach out via Telegram. Contact details to SilentSolve are provided below.
 
-Telegram: @autographed (https://t.me/autographed)
+Silent Solve Links
 
-Telegram Channel: https://t.me/+KwQYzhJryu5mMjMx
+https://discord.gg/SilentSolve (Official Discord Channel)
 
-NOTE: For inquiries regarding the purchase of newer versions of PX please feel free to reach out via Telegram. Contact details are provided above.
+https://t.me/SilentSolve (Official Telegram Channel)
+
+https://t.me/SilentSolveVouches (Customer Vouches/Testimonials)
+
+# Pay-per use PerimeterX service is coming to https://silentsolve.xyz soon #
 
 🗞️ DESCRIPTION 🗞️
 
-As promised I posted my newer PerimeterX Solver for PX version 8.9.6. I have also alread7 posted an older version if you're interested in that one (6.7.9)
+As promised I posted my newer PerimeterX Solver for PX version v8.9.6. I have also already posted an older version if case you're interested in v6.7.9 instead.
 
 🤑 Extra 🤑
 
-For highesr pass rates it's suggested that you try to spoof the WEBGL fingerprint properties.
+For higher pass rates it's suggested that you rotate the WEBGL fingerprint properties accordingly.
 
 ## PLEASE LIKE AND STAR THIS REPO FOR MORE REVERSES ##
