@@ -6,7 +6,7 @@
 
 As promised I posted my newer PerimeterX Solver for PX version v8.9.6. I have also already posted an older version if case you're interested in v6.7.9 instead.
 
-🤑 Extra 🤑
+🤑 Extra 🤑 
 
 For higher pass rates it's suggested that you rotate the WEBGL fingerprint properties accordingly.
 
