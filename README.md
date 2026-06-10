@@ -2,8 +2,6 @@
 
 ![image](https://github.com/user-attachments/assets/0c6ecf3d-20ee-479b-962e-a913df398211)
 
-# Pay-per use PerimeterX service is coming to https://silentsolve.xyz soon #
-
 🗞️ DESCRIPTION 🗞️
 
 As promised I posted my newer PerimeterX Solver for PX version v8.9.6. I have also already posted an older version if case you're interested in v6.7.9 instead.
