@@ -46,14 +46,14 @@ class PX:
         }
         self.uuid = str(uuid.uuid4())
         self.cu = str(uuid.uuid4())
-        self.pc_key = f"{self.uuid}:v8.9.6:{ft}"
-        self.rsc = 1
+        self.pc_key = f"{self.uuid}:v8.6.6:{ft}"
+        self.rsc = 3
 
     @staticmethod
     def parse_for_cookie(response: str) -> str:
 
         try:
-            return response.split("330|")[1].split("|")[0]
+            return response.split("316|")[1].split("|")[0]
         except:
             return None
         
@@ -62,7 +62,7 @@ class PX:
         self.raw_payload = fingerprint_1(self.host, self.uuid, self.st)
         payload_key = {
             "vid": self.site_uuids['vid'],
-            "tag": "v8.9.6",
+            "tag": "v8.6.6",
             "appID": self.app_id,
             "cu": self.cu,
             "pc": str(generate_pc(self.pc_key, self.raw_payload))
@@ -70,7 +70,7 @@ class PX:
         payload = {
             "payload": encrypt_payload(self.raw_payload),
             "appId": self.app_id,
-            "tag": "v8.9.6",
+            "tag": "v8.6.6",
             "uuid": self.uuid,
             "ft": self.ft,
             "seq": (self.rsc - 1),
@@ -97,12 +97,12 @@ class PX:
         payload_data = {
             "payload": encrypt_payload(self.fp_2),
             "appId": self.app_id,
-            "tag": "v8.9.6",
+            "tag": "v8.6.6",
             "uuid": self.uuid,
             "ft": self.ft,
             "seq": self.rsc,
             "en": "NTA",
-            "cs": f"{self.resp_1.split("1ooo11|")[1].split("~")[0]}",
+            "cs": f"{self.resp_1.split('1ooo11|')[1].split('~')[0]}",
             "pc": generate_pc(self.pc_key, self.fp_2),
             "sid": self.site_uuids['sid'],
             "vid": self.site_uuids['vid'],
@@ -124,10 +124,10 @@ class PX:
 if __name__ == "__main__":
     t1 = int(time.time())
     token = PX(
-        app_id="PX943r4Fb8",
-        ft=330,
-        collector_uri="https://collector-px943r4fb8.px-cloud.net/api/v2/collector",
-        host="https://arcteryx.com/",
+        app_id="pxu6b0qd2s",
+        ft=316,
+        collector_uri="https://collector-pxu6b0qd2s.px-cloud.net/api/v2/collector",
+        host="https://www.walmart.com/",
         sid="0396fb2e-5f0f-11ef-ae7c-f857124857d2󠄱󠄷󠄲󠄴󠄱󠄷󠄰󠄳󠄷󠄹󠄹󠄵󠄶",
         vid="0bc41189-5ec3-11ef-ba8c-eaab7bc900b7",
         cts="0c3f5439-5ec3-11ef-83dc-88da46c325fa",
